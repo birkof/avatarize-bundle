@@ -19,9 +19,9 @@ Annoying package name.. huh? Sorry. I'm not very good with names.
 
 ## Documentation
 
-The bulk of the documentation is stored in the `./Resources/doc/index.md` file in this bundle:
+The bulk of the documentation is stored in the `./src/Resources/doc/index.md` file in this bundle:
 
-[Read the Documentation](./Resources/doc/index.md)
+[Read the Documentation](./src/Resources/doc/index.md)
 
 
 ## License
