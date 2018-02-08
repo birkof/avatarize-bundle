@@ -33,7 +33,7 @@ class AvatarGeneratorExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_Filter('avatarize', [$this, 'avatarizeStringFilter']),
+            new \Twig_Filter('avatarize', [$this, 'avatarizeString']),
         ];
     }
 
@@ -47,19 +47,6 @@ class AvatarGeneratorExtension extends \Twig_Extension
         return [
             new \Twig_Function('avatarize', [$this, 'avatarizeString']),
         ];
-    }
-
-
-    /**
-     * Avatarize a string.
-     *
-     * @param null $string
-     *
-     * @return string
-     */
-    public function avatarizeStringFilter($string = null)
-    {
-        return $this->initialsLibrary->name($string)->generate();
     }
 
     /**
