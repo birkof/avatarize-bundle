@@ -1,0 +1,22 @@
+{
+  "name": "birkof/avatarize-bundle",
+  "description": "A bundle to to generate avatars with initials from names",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "birkof\\Avatarize\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^5.6|^7.0|^7.1|^7.2",
+    "lasserafn/php-initials": "^2.20",
+    "symfony/framework-bundle": "^4.0",
+    "twig/extensions": "^1.5"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

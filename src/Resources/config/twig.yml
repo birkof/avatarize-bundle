@@ -1,0 +1,5 @@
+services:
+    avatarize.twig.extension:
+        class: birkof\Avatarize\Twig\AvatarGeneratorExtension
+        tags:
+            - { name: twig.extension }
