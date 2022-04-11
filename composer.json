@@ -9,11 +9,9 @@
     }
   },
   "require": {
-    "php": "^5.6|^7.0|^7.1|^7.2",
-    "lasserafn/php-initials": "^2.20",
-    "twig/twig": "^2.4"
-  },
-  "require-dev": {
+    "php": "^7.0|^8.0",
+    "lasserafn/php-initials": "^3.1",
+    "twig/twig": "^2"
   },
   "config": {
     "sort-packages": true
